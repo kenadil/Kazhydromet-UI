@@ -1,0 +1,44 @@
+<div class="container_content_tab">
+        <span class="default-btn block_tab_one active">Основные показатели</span> 
+        <span class="default-btn block_tab_two">Дополнительные показатели</span>
+      </div>
+      <ul>
+        <li>
+          <div class="first_step_filter-title">
+              <span class="first_step_filter-title-text active">Дата</span> <span class="default-btn-y">?</span>
+          </div>
+          <div class="second_step_filter auto_height">
+            <div class="container_filter">
+              <div class="container_filter-main">
+                <div class="filter_block">
+                  <div style={datepicker}>
+                    <DatePicker onChange ={onChange} />;
+                  </div>
+                  <span class="filter_block_date_href">
+                    <a>За неделю</a>
+                  </span>
+                  <span
+                    class="filter_block_date_href"><a>За месяц</a>
+                  </span>
+                </div>
+              </div>
+              <div class="container_filter_bottom">
+                <span class="default-btn">Сбросить</span>
+                <span class="default-btn">Сохранить</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="first_step_filter-title">
+              <span class="first_step_filter-title-text active">Район</span> <span class="default-btn-y">?</span>
+          </div>
+          <div class="second_step_filter auto_height">
+
+          </div>
+        </li>
+        <li> 
+          
+        </li>
+      </ul>
+
